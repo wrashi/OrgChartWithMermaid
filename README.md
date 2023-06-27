@@ -1,4 +1,4 @@
-# OrgChartWithMermaid
+# Org Chart With Mermaid
 *Python code to turn a CSV file of employee details into an org chart that is human readable and editable.*
 
 ![Sample Org Chart Output](https://github.com/wrashi/OrgChartWithMermaid/blob/main/mermaid-diagram-2023-06-27-073747.png?raw=true)
