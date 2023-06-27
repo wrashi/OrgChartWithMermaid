@@ -1,11 +1,13 @@
 # OrgChartWithMermaid
 *Python code to turn a CSV file of employee details into an org chart that is human readable and editable.*
 
+![Sample Org Chart Output](https://github.com/wrashi/OrgChartWithMermaid/blob/main/mermaid-diagram-2023-06-27-073747.png?raw=true)
+
 Visualizing a fast changing organizational structure for investors, potential customers, and curious journalists 
 	is common in the startup space.
 Many other organizations also need a quick and easy way to create an org chart without learning Visio in detail or hiring an IT department.
 
-The included Python script creates an org chart which can be exported in HTML and other formats. 
+The included Python script creates an org chart which can be exported to HTML and other formats. 
 The output is easy to read and modify by people who consider themselves non-technical.
 
 This script tries to hit the following requirements.
@@ -41,6 +43,6 @@ pip install sqlalchemy pandas
 4. Modify the Python script to output the desired information and format.
 5. Run the script.
 6. Copy the Markdown output into a program that handles Mermaid like Obsidian, Notion, Hackmd.io, etc. 
-   For the latest features like Markdown strings and FontAwesome icons, use the [Mermaid live editor](https://mermaid.live) without the lines starting with 3 backtics `` `` ``.
+   For the latest features like Markdown strings and FontAwesome icons, use the [Mermaid live editor](https://mermaid.live) without the lines starting with 3 backtics `` ` ``.
 
 A detailed review of Mermaid and the code's inner workings is available [in this blog post](https://wpenner.com/en/blog/building-an-org-chart-with-mermaid).
